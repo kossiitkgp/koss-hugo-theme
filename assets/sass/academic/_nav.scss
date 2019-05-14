@@ -7,8 +7,9 @@
 }
 
 .navbar-light {
-  background: $sta-menu-primary !important;
-  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
+  background: $sta-menu-primary;
+  border-bottom: 1px solid #D7DFE9;
+  // box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
 .navbar-light .navbar-toggler {
