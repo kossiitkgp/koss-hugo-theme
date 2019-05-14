@@ -1,4 +1,72 @@
+<link rel="stylesheet" href="styles.css">
+
 {{ if not (isset site.Params "color_theme") }}
-  {{ errorf "Please complete the installation of Academic by following the steps at https://sourcethemes.com/academic/docs/install/" }}
+{{ errorf "Please complete the installation of Academic by following the steps at https://sourcethemes.com/academic/docs/install/" }}
 {{ end }}
+
+<section id="koss" class="home-section wg-blank   ">
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-12 col-lg-6 section-heading">
+        <h1>Kharagpur Open Source Society</h1>
+        <h2> <i> For the love of coding</i></h2>
+        <p>We are a group of volunteer students at IIT Kharagpur who promote Open Source.</p>
+      </div>
+
+      <div class="col-12 col-lg-6 blur-illustration">
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+  </div>
+</section>
+
+
+<section id="community" class="home-section wg-blank   ">
+  <div class="container">
+
+
+
+    <div class="row">
+
+      <div class="col-12 col-lg-4 section-heading">
+        <h1>Community</h1>
+        <p>Who are the people?</p>
+      </div>
+      <div class="col-12 col-lg-8">
+        <p><em>We are a group of volunteer students at IIT Kharagpur who promote Open Source.</em></p>
+
+        <p>To get more beginners introduced to Open Source, we hold events like</p>
+
+        <ul>
+          <li><a href="/docs/events/kwoc">Kharagpur Winter of Code</a></li>
+          <li>Ubuntu Install Fest</li>
+          <li>Version control (Git + GitHub workflow)</li>
+          <li>Various workshops
+
+            <ul>
+              <li><a href="/docs/events/python-classes">Python Classes</a></li>
+              <li>Golang Classes</li>
+              <li>Javascript classes</li>
+              <li>Android Development</li>
+            </ul>
+          </li>
+          <li>Hackathons</li>
+        </ul>
+
+        <p>Read more about our <a href="/docs/events">Events</a>.</p>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
 {{ partial "widget_page.html" . }}
