@@ -20,7 +20,8 @@ body {
   line-height: inherit;
   color: inherit;
   background-color: $sta-background;
-  margin-top: 70px; /* Offset body content by navbar height. */
+  margin-top: 8rem;
+  /* Offset body content by navbar height. And add some padding too */
   padding-top: 0;
   counter-reset: captions;
 }
